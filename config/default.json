@@ -1,0 +1,5 @@
+{
+  "port": 8000,
+  "jwtSecret": "isNotSecret",
+  "mongoUri": "mongodb+srv://DartVader:4321ytrewq@cluster0.hayzd.mongodb.net/Cluster0?retryWrites=true&w=majority"
+}

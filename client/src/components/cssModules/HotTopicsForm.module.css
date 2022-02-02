@@ -1,0 +1,85 @@
+.hotTopicsForm {
+    background-color: rgb(21, 24, 28);
+    border-radius: 16px;
+    width: 100%;
+}
+
+.hotTopicsFormContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.hotTopicsFormContentHeader {
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.hotTopicsFormContentHeader:first-child {
+    font-weight: 800;
+    font-size: 20px;
+    color: rgb(217, 217, 217);
+}
+
+.hotTopicsFormSettingsIcon {
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hotTopicsFormSettingsIcon a {
+    display: block;
+    border-radius: 9999px;
+    margin: -12px 0;
+}
+
+.hotTopicsFormSettingsIcon svg {
+    width: 20px;
+    height: 20px;
+    fill: rgb(239, 243, 244)
+}
+
+.topic {
+    padding: 12px 16px;
+}
+
+.topicCountryName, .topicCountTwits {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.topicCountryName {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topicExtraMenu svg{
+    fill: rgb(110, 118, 125);
+    width: 1.25em;
+    height: 1.25em;
+    cursor: pointer;
+}
+
+.topicName {
+    padding-top: 2px;
+    color: rgb(217, 217, 217);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.topicCountTwits {
+    margin-top: 4px;
+}
+
+.buttonShowMoreTopics {
+    padding: 16px;
+    border-radius: 0 0 16px 16px;
+    color: rgb(29, 155, 240);
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+}

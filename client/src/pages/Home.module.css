@@ -1,0 +1,37 @@
+.homeLabel {
+    position: sticky;
+    top: -0.5px;
+    background-color: rgba(0, 0, 0, 0.65);
+    z-index: 2;
+    cursor: pointer;
+    height: 53px;
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.homeLabelContent {
+    display: flex;
+    padding: 0 16px;
+    height: 100%;
+}
+
+.homeLabelContentText {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(217, 217, 217);
+}
+
+.homeLabelContentIcon {
+    display: flex;
+    align-items: center;
+}
+
+.homeLabelContentIcon svg {
+    width: 20px;
+    height: 20px;
+    fill: rgb(239, 243, 244);
+}

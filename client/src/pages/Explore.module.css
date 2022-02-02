@@ -1,0 +1,66 @@
+.mainWrapper {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    /*height: 100%;*/
+}
+
+.main {
+    display: flex;
+    width: 990px;
+    justify-content: space-between;
+}
+
+.mainContent {
+    box-sizing: border-box;
+    max-width: 600px;
+    width: 100%;
+    border-width: 0 1px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.mainContentHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 16px 0;
+}
+
+.headerSearchForm {
+    flex-grow: 1;
+}
+
+.headerIcon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 56px;
+    fill: white;
+}
+
+.headerIcon svg {
+    width: 20px;
+    height: 20px;
+}
+
+.hotTopicsSeparator {
+    margin: 4px 0;
+    width: 100%;
+    background-color: rgb(47, 51, 54);
+    height: 1px;
+}
+
+.hotTopicsHeader {
+    padding: 12px 16px;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(217, 217, 217);
+}
+
+.buttonShowMoreTopics {
+    padding: 16px;
+    border-radius: 0 0 16px 16px;
+    color: rgb(29, 155, 240);
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+}

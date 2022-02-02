@@ -1,0 +1,172 @@
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    align-items: flex-end;
+}
+
+.headerContent {
+    padding: 0 12px;
+    width: 275px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainLink {
+    padding: 2px 0;
+    display: flex;
+}
+
+.mainLink a {
+    display: flex;
+    border-radius: 9999px;
+    border-width: 1px;
+    min-width: 52px;
+    min-height: 52px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainLink svg {
+    width: 24px;
+    height: 2rem;
+    max-width: 100%;
+    fill: rgb(217, 217, 217);
+    flex-grow: 1;
+}
+
+.navigation {
+    margin: 2px 0 4px;
+    width: 100%;
+}
+
+.navigation nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.navigation nav a {
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.navigationLinkContent {
+    display: flex;
+    padding: 12px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    border-radius: 9999px;
+}
+
+.navigationLinkContentIcon {
+    display: flex;
+}
+
+.navigationLinkContentIcon svg {
+    height: 1.5rem;
+    fill: rgb(217, 217, 217);
+}
+
+.navigationLinkText {
+    margin-left: 20px;
+    margin-right: 16px;
+    font-size: 20px;
+    line-height: 24px;
+    font-stretch: 100%;
+    font-weight: 400;
+    color: rgb(217, 217, 217);
+}
+
+.navigationLinkExtraMenu {
+    display: flex;
+}
+
+.twitButton {
+    margin: 4px 0;
+    width: 90%;
+}
+
+.twitButton a {
+    display: block;
+    padding: 0 32px;
+    background-color: rgb(29, 155, 240);
+    border-radius: 9999px;
+    border-width: 1px;
+    min-width: 52px;
+    min-height: 52px;
+}
+
+.twitButtonText {
+    min-height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.profileSettings {
+    margin: 12px 0;
+}
+
+.profileSettingsContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+
+.profileSettingsContentFirstChild {
+    display: inherit;
+    align-items: inherit;
+}
+
+.usersNameAndIdContent {
+    margin: 0 12px;
+}
+
+.usersImage img {
+    border-radius: 9999px;
+    width: 40px;
+    height: 40px;
+}
+
+.usersName {
+    font-weight: 700;
+    font-size: 15px;
+    color: rgb(217, 217, 217);
+}
+
+.usersId {
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+}
+
+.extraMenuIcon svg {
+    fill: rgb(217, 217, 217);
+    width: 19px;
+    height: 19px;
+}

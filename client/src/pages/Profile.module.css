@@ -1,0 +1,40 @@
+.tabBarNav {
+    width: 100%;
+    display: flex;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+}
+
+.navItem {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    padding: 0 16px;
+}
+
+.activeNav {
+    font-weight: 700;
+    color: rgb(217, 217, 217);
+}
+
+.navItem span {
+    padding: 16px 0;
+}
+
+.activeNav .tabNameUnderline {
+    position: relative;
+    height: 4px;
+    width: 100%;
+    background-color: rgb(29, 155, 240);
+}
+
+.contentItem {
+    display: none;
+}
+
+.activeContentStyle {
+    display: block;
+}

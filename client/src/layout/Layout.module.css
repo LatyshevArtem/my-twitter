@@ -1,0 +1,24 @@
+.layout {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    width: 990px;
+    justify-content: space-between;
+}
+
+.layoutChildren {
+    box-sizing: border-box;
+    max-width: 600px;
+    width: 100%;
+    border-width: 0 1px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.actualForm {
+    width: 350px;
+}

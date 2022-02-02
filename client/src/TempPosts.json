@@ -1,0 +1,38 @@
+[
+  {
+    "user": {
+      "name": "Dart Vader",
+      "id": "@DartVader",
+      "image": "https://citaty.info/files/quote-pictures/260595-zvezdnye-voiny-epizod-6-vozvrashenie-dzhedaya-star-wars-episode-vi-return-of-the-jedi.jpg"
+    },
+    "text": "Ты недооцениваешь силу Тёмной стороны.",
+    "publicationDate": "08.10.2040",
+    "numberOfReply": 123,
+    "numberOfRetweet": 9999,
+    "numberOfLike": 11
+  },
+  {
+    "user": {
+      "name": "Dart Vader",
+      "id": "@DartVader",
+      "image": "images/default_profile_x96.png"
+    },
+    "text": "a",
+    "publicationDate": "09.11.2041",
+    "numberOfReply": 3,
+    "numberOfRetweet": 999,
+    "numberOfLike": 1
+  },
+  {
+    "user": {
+      "name": "Dart Vader",
+      "id": "@DartVader",
+      "image": "images/default_profile_x96.png"
+    },
+    "text": "Смотрите не задохнитесь от своих амбиций, директор...",
+    "publicationDate": "10.12.2042",
+    "numberOfReply": 12,
+    "numberOfRetweet": 91999,
+    "numberOfLike": 111
+  }
+]

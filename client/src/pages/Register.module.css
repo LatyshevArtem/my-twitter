@@ -1,0 +1,410 @@
+.main {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.mainContent {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.imageAndIconSection {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    align-items: center;
+    height: 100%;
+    max-width: 48%;
+    background-image: url("/public/images/ImageInRegistrationPage.jpg");
+}
+
+.imageAndIconSection svg {
+    padding: 32px;
+    height: 50%;
+    max-height: 380px;
+    fill: white;
+}
+
+.RegistrationSection {
+    min-width: 45vw;
+    padding: 16px;
+}
+
+.RegistrationSectionContent {
+    padding: 20px;
+}
+
+.RegistrationSectionContent svg {
+    height: 3rem;
+    padding-bottom: 12px;
+    fill: white;
+}
+
+.RegistrationSectionContentFirstText {
+    line-height: 84px;
+    font-size: 64px;
+    letter-spacing: -1.2px;
+    font-weight: 700;
+    color: white;
+    margin: 48px 0;
+}
+
+.RegistrationSectionContentSecondText {
+    margin-bottom: 32px;
+    line-height: 36px;
+    font-size: 31px;
+    font-weight: 700;
+    color: white;
+}
+
+.signInWithSomeCompanyButtonWrapper {
+    width: 300px;
+    margin-bottom: 8px;
+    height: 40px;
+    border-radius: 9999px;
+    background-color: white;
+    padding: 0 16px;
+}
+
+.signInWithSomeCompanyButtonContent {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    height: 100%;
+}
+
+.signInWithSomeCompanyButtonContent svg {
+    padding: 0;
+    margin-right: 8px;
+    height: 18px;
+    width: 18px;
+}
+
+.signInWithSomeCompanyButtonWrapper.apple {
+    margin: 0;
+}
+
+.signInWithSomeCompanyButtonContent.apple svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    padding-bottom: 5px;
+    fill: rgb(15, 20, 25);
+}
+
+.signInWithSomeCompanyButtonContent.apple span {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.registrationSectionButtonsSeparator {
+    width: 332px;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.registrationSectionButtonsSeparator .line {
+    margin: 0 4px;
+    height: 1px;
+    background-color: rgb(47, 51, 54);
+    flex-grow: 1;
+}
+
+.registrationSectionButtonsSeparator .text {
+    margin: 0 4px;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}
+
+.registrationWithEmailAndNumberWrapper {
+    background-color: rgb(29, 155, 240);
+    border-radius: 9999px;
+    width: 300px;
+    height: 40px;
+    padding: 0 16px;
+    margin-bottom: 8px;
+    display: flex;
+    text-decoration: none;
+}
+
+.registrationWithEmailAndNumberContent {
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.privacyPolicyWrapper {
+    width: 332px;
+    margin-bottom: 20px;
+    color: rgb(100, 118, 125);
+    font-size: 11px;
+}
+
+.privacyPolicyWrapper a {
+    color: rgb(29, 150, 240);
+    text-decoration: none;
+}
+
+.logInSectionWrapper {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logInSectionText {
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.logInSectionButton {
+    width: 300px;
+    padding: 0 16px;
+    height: 40px;
+    margin-bottom: 8px;
+    border-radius: 9999px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(83, 100, 113);
+    text-decoration: none;
+    display: flex;
+}
+
+.logInSectionButton div {
+    color: rgb(29, 155, 240);
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+}
+
+.footerNav {
+    background-color: black;
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.footerNav a {
+    margin: 4px 0;
+    padding-right: 16px;
+    text-decoration: none;
+    color: rgb(110, 118, 125);
+}
+
+.footerNav div {
+    margin: 4px 0;
+    padding-right: 16px;
+    color: rgb(110, 118, 125);
+}
+
+.logIn {
+    position: absolute;
+    top: 0;
+    display: none;
+    z-index: 5;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(91, 112, 131, 0.4);
+}
+
+.logInForm {
+    border-radius: 16px;
+    background-color: black;
+    min-width: 600px;
+    height: 650px;
+}
+
+.formHeader {
+    padding: 0 16px;
+    display: flex;
+    width: 100%;
+    height: 53px;
+    justify-content: center;
+    align-items: center;
+}
+
+.formHeaderOddChild {
+    flex-grow: 1;
+}
+
+.formHeaderCrossIcon {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    align-items: center;
+}
+
+.formHeaderCrossIcon svg {
+    fill: rgb(239, 243, 244);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 9999px;
+}
+
+.formHeaderTwitterIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formHeaderTwitterIcon svg {
+    height: 1.75rem;
+    fill: rgb(217, 217, 217);
+}
+
+.formHeaderOddChild.last {
+    min-width: 56px;
+}
+
+.formContentWrapper {
+    margin: 0 118px;
+    padding: 0 32px 48px 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formContentHeaderWrapper div {
+    margin: 16px 0;
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.button {
+    max-width: 100%;
+    margin: 12px 0;
+    padding: 0 16px;
+    display: flex;
+    min-height: 36px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 9999px;
+}
+
+.button div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logInWithGoogle {
+    background-color: white;
+    font-weight: 500;
+    color: #3c4043;
+}
+
+.logInWithGoogle svg {
+    margin-right: 8px;
+    width: 18px;
+    height: 18px;
+}
+
+.logInWithApple {
+    background-color: white;
+    color: rgb(15, 20, 25);
+}
+
+.logInWithApple svg {
+    margin-right: 4px;
+    width: 20px;
+    height: 20px;
+}
+
+.formContentButtonsSeparator {
+    display: flex;
+    align-items: center;
+}
+
+.separatorLine {
+    margin: 0 4px;
+    height: 1px;
+    flex-grow: 1;
+    background-color: rgb(47, 51, 54);
+}
+
+.separatorText {
+    margin: 0 4px;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(217, 217, 217);
+}
+
+.usersLogin, .usersPassword {
+    padding: 4px 0;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.usersLogin input, .usersPassword input {
+    margin: 0;
+    width: 90%;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    padding: 12px 8px;
+    font-size: 17px;
+    color: rgb(217, 217, 217);
+    background-color: black;
+    outline: none;
+}
+
+.logInButton {
+    background-color: white;
+    color: black;
+}
+
+.forgetPasswordButton {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(83, 100, 113);
+}
+
+.forgetPasswordButton div {
+    color: rgb(239, 243, 244);
+}
+
+.backToRegistration {
+    margin-top: 40px;
+    color: rgb(110, 118, 125);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.backToRegistration a {
+    color: rgb(29, 155, 240);
+    text-decoration: none;
+}
+
+.formContentPaddingBottom {
+    padding: 12px 32px 36px 32px;
+}
